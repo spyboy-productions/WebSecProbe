@@ -104,23 +104,14 @@ class WebSecProbe:
             print("No available snapshots found in Wayback Machine.")
 
 def main():
-    # Create an argument parser
-    parser = argparse.ArgumentParser(description='Web Security Assessment Tool')
-    parser.add_argument('url', type=str, help='Target URL (e.g., https://example.com)')
-    parser.add_argument('path', type=str, help='Path to assess (e.g., /path/to/assess)')
-
-    # Parse command-line arguments
-    args = parser.parse_args()
-    url = args.url
-    path = args.path
-
-    # Create an instance of WebSecProbe and run it
-    probe = WebSecProbe(url, path)
-    probe.run()
-
-if __name__ == "__main__":
     # Your banner and social links
-    VERSION = '0.0.8'
+    twitter_url = 'https://spyboy.in/twitter'
+    discord = 'https://spyboy.in/Discord'
+    website = 'https://spyboy.in/'
+    blog = 'https://spyboy.blog/'
+    github = 'https://github.com/spyboy-productions/WebSecProbe'
+
+    VERSION = '0.0.10'
 
     R = '\033[31m'  # red
     G = '\033[32m'  # green
@@ -143,6 +134,22 @@ if __name__ == "__main__":
     print(f'{G} ╰➤ {Y}Discord      : {W}{discord}')
     print(f'{G} ╰➤ {Y}Website      : {W}{website}')
     print(f'{G} ╰➤ {Y}Blog         : {W}{blog}')
+    print(f'{G} ╰➤ {Y}Github       : {W}{github}')
     print('\n')
 
+    # Create an argument parser
+    parser = argparse.ArgumentParser(description='Web Security Assessment Tool')
+    parser.add_argument('url', type=str, help='Target URL (e.g., https://example.com)')
+    parser.add_argument('path', type=str, help='Path to assess (e.g., /path/to/assess)')
+
+    # Parse command-line arguments
+    args = parser.parse_args()
+    url = args.url
+    path = args.path
+
+    # Create an instance of WebSecProbe and run it
+    probe = WebSecProbe(url, path)
+    probe.run()
+
+if __name__ == "__main__":
     main()
