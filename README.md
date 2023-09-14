@@ -19,7 +19,7 @@
 
 <br>
 
-<img width="100%" align="centre" src="https://cdn.discordapp.com/attachments/1141162711464550430/1151709638581039115/webSecProbe.png" />
+<img width="100%" align="centre" src="https://cdn.discordapp.com/attachments/1141162711464550430/1151732343472652358/wbsec.png" />
 
 
 <h4 align="center">  Web Security Assessment Tool </h4>
