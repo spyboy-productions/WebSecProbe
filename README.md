@@ -57,7 +57,7 @@ Requirements:
 <img src="https://img.shields.io/badge/Git-05122A?style=for-the-badge&logo=git">
 </h4>
 
-### ⭔ PYPI Installation :
+### ⭔ PYPI Installation : https://pypi.org/project/WebSecProbe/
 ---
 ```
 pip install WebSecProbe
