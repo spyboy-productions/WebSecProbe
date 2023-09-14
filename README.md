@@ -64,12 +64,12 @@ pip install WebSecProbe
 ```
 
 #### How To Run On CLI:
+
+`WebSecProbe <URL> <Path>`
+
+Example: 
 ```
-WebSecProbe <URL> <Path>
-
-________________________
-
-Example: WebSecProbe https://spyboy.in premium
+WebSecProbe https://spyboy.in premium
 ```
 
 #### Python Code
