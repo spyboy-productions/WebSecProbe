@@ -69,7 +69,7 @@ pip install WebSecProbe
 
 Example: 
 ```
-WebSecProbe https://spyboy.in premium
+WebSecProbe https://example.com admin-login
 ```
 
 #### Python Code
@@ -77,8 +77,8 @@ WebSecProbe https://spyboy.in premium
 from WebSecProbe.main import WebSecProbe
 
 if __name__ == "__main__":
-    url = 'https://spyboy.in'  # Replace with your target URL
-    path = 'premium'  # Replace with your desired path
+    url = 'https://example.com'  # Replace with your target URL
+    path = 'admin-login'  # Replace with your desired path
 
     probe = WebSecProbe(url, path)
     probe.run()
