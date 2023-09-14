@@ -17,7 +17,10 @@
   
 </p>
 
+<br>
+
 <img width="100%" align="centre" src="https://cdn.discordapp.com/attachments/1141162711464550430/1151709638581039115/webSecProbe.png" />
+
 
 <h4 align="center">  Web Security Assessment Tool </h4>
 
@@ -54,41 +57,19 @@ Requirements:
 <img src="https://img.shields.io/badge/Git-05122A?style=for-the-badge&logo=git">
 </h4>
 
-### ⭔ Git Installation
+### ⭔ PYPI Installation :
 ---
+```
+pip install WebSecProbe
+```
 
+#### How To Run:
 ```
-git clone https://github.com/spyboy-productions/WebSecProbe.git
-```
-```
-cd WebSecProbe
-```
-```
-pip3 install -r requirements.txt
-```
-```
-cd WebSecProbe
-```
-```
-python3 main.py <URL> <Path>
+WebSecProbe <URL> <Path>
 
 ________________________
 
-Example: python3 main.py https://spyboy.in premium
-```
-
-### ⭔ PYPI Installation : https://pypi.org/project/comingsooon
----
-```
-pip install comingsooon
-```
-
-#### How To Run Using pip:
-```
-
-```
-```
-
+Example: WebSecProbe https://spyboy.in premium
 ```
 
 ---
