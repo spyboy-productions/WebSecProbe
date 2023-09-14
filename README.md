@@ -63,13 +63,26 @@ Requirements:
 pip install WebSecProbe
 ```
 
-#### How To Run:
+#### How To Run On CLI:
 ```
 WebSecProbe <URL> <Path>
 
 ________________________
 
 Example: WebSecProbe https://spyboy.in premium
+```
+
+#### Python Code
+```py
+from WebSecProbe.main import WebSecProbe
+
+if __name__ == "__main__":
+    url = 'https://spyboy.in'  # Replace with your target URL
+    path = 'premium'  # Replace with your desired path
+
+    probe = WebSecProbe(url, path)
+    probe.run()
+
 ```
 
 ---
