@@ -19,7 +19,7 @@
 
 <br>
 
-<img width="100%" align="centre" src="https://cdn.discordapp.com/attachments/1141162711464550430/1151732343472652358/wbsec.png" />
+<img width="100%" align="centre" src="https://cdn.discordapp.com/attachments/1141162711464550430/1152291533563891793/websecp.png" />
 
 
 <h4 align="center">  Web Security Assessment Tool, Bypass 403</h4>
