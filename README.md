@@ -96,7 +96,7 @@ if __name__ == "__main__":
 #### 💬 If having issue [Chat here](https://discord.gg/ZChEmMwE8d)
 [![Discord Server](https://discord.com/api/guilds/726495265330298973/embed.png)](https://discord.gg/ZChEmMwE8d)
 
-### ⭔ Snapshots
+### ⭔ Snapshots:
 ---
 
 <img width="100%" align="centre" src="https://cdn.discordapp.com/attachments/1141162711464550430/1151709638262263858/Screenshot_2023-09-14_at_8.11.44_AM.png" />
