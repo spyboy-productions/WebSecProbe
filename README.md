@@ -22,7 +22,7 @@
 <img width="100%" align="centre" src="https://cdn.discordapp.com/attachments/1141162711464550430/1151732343472652358/wbsec.png" />
 
 
-<h4 align="center">  Web Security Assessment Tool </h4>
+<h4 align="center">  Web Security Assessment Tool, Bypass 403</h4>
 
 A cutting-edge utility designed exclusively for web security aficionados, penetration testers, and system administrators. WebSecProbe is your advanced toolkit for conducting intricate web security assessments with precision and depth. This robust tool streamlines the intricate process of scrutinizing web servers and applications, allowing you to delve into the technical nuances of web security and fortify your digital assets effectively.
 
