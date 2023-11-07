@@ -24,7 +24,7 @@ setup(
     Homepage="https://github.com/spyboy-productions/WebSecProbe/",
     Repository="https://github.com/spyboy-productions/WebSecProbe/",
     license="MIT",
-    install_requires=['requests', 'argparse', 'tabulate'],
+    install_requires=['requests', 'tabulate'],
     keywords=['HTTP-Request-Analysis', 'bypass-403', 'Header-Injection', 'Historical-Analysis', 'Payload-Variations', 'Vulnerability-Assessment'],
     classifiers=[
         "Development Status :: 1 - Planning",
