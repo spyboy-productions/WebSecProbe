@@ -1,12 +1,13 @@
 # websecprobe/websecprobe/cli.py
 
 import argparse
-import requests
 import json
 import re
 import threading
-from requests.packages.urllib3.exceptions import InsecureRequestWarning
+
+import requests
 from tabulate import tabulate
+
 
 class WebSecProbe:
     def __init__(self, url, path):
@@ -42,29 +43,29 @@ class WebSecProbe:
         # List of payloads
         payloads = [
             "",
-            "%2e" + self.path,
-            self.path + "/.",
-            "//" + self.path + "//",
-            "./" + self.path + "/./",
-            "-H X-Original-URL: " + self.path,
+            f"%2e{self.path}",
+            f"{self.path}/.",
+            f"//{self.path}//",
+            f"./{self.path}/./",
+            f"-H X-Original-URL: {self.path}",
             "-H X-Custom-IP-Authorization: 127.0.0.1",
             "-H X-Forwarded-For: http://127.0.0.1",
             "-H X-Forwarded-For: 127.0.0.1:80",
-            "-H X-rewrite-url: " + self.path,
-            self.path + "%20",
-            self.path + "%09",
-            self.path + "?",
-            self.path + ".html",
-            self.path + "/?anything",
-            self.path + "#",
+            f"-H X-rewrite-url: {self.path}",
+            f"{self.path}%20",
+            f"{self.path}%09",
+            f"{self.path}?",
+            f"{self.path}.html",
+            f"{self.path}/?anything",
+            f"{self.path}#",
             "-H Content-Length:0 -X POST",
-            self.path + "/*",
-            self.path + ".php",
-            self.path + ".json",
+            f"{self.path}/*",
+            f"{self.path}.php",
+            f"{self.path}.json",
             "-X TRACE",
             "-H X-Host: 127.0.0.1",
-            self.path + "..;/",
-            " " + self.path + ";/"
+            f"{self.path}..;/",
+            f" {self.path};/",
         ]
 
         for payload in payloads:
@@ -88,9 +89,7 @@ class WebSecProbe:
 
         # Fetch snapshots using the Wayback Machine API
         response = requests.get(wayback_url)
-        snapshots = json.loads(response.text)
-
-        if snapshots:
+        if snapshots := json.loads(response.text):
             print("Available snapshots:")
             for snapshot in snapshots:
                 timestamp = snapshot[1]
@@ -102,6 +101,7 @@ class WebSecProbe:
                 print()
         else:
             print("No available snapshots found in Wayback Machine.")
+
 
 def main():
     # Your banner and social links
@@ -150,6 +150,7 @@ def main():
     # Create an instance of WebSecProbe and run it
     probe = WebSecProbe(url, path)
     probe.run()
+
 
 if __name__ == "__main__":
     main()
