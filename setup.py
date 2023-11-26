@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.10'
+VERSION = '0.0.11'
 DESCRIPTION = 'Web Security Assessment Tool'
 
 # Setting up
@@ -15,7 +15,7 @@ setup(
     name="WebSecProbe",
     version=VERSION,
     author="Spyboy",
-    author_email="spyboyblog@gmail.com",
+    author_email="contact@spyboy.in",
     description=DESCRIPTION,
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
