@@ -121,7 +121,7 @@ def main():
     blog = 'https://spyboy.blog/'
     github = 'https://github.com/spyboy-productions/WebSecProbe'
 
-    VERSION = '0.0.10'
+    VERSION = '0.0.11'
 
     R = '\033[31m'  # red
     G = '\033[32m'  # green
