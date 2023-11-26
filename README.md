@@ -45,6 +45,87 @@ WebSecProbe is designed to perform a series of HTTP requests to a target URL wit
 
 > In summary, this code is a tool for exploring and analyzing a web server's responses to different requests, but whether or not it can bypass a 403 Forbidden status code depends on the specific configuration and security measures implemented by the target server.
 
+<br>
+
+<details>
+  <summary> Click To Expand: Payload Breakdown </summary>
+
+  Here's a brief breakdown of the payloads:
+
+  - **Empty String:**
+    - An empty string as a payload.
+
+  - **URL Encoding (%2e):**
+    - URL encoding of a dot (.) concatenated with the path.
+
+  - **Path with Slash (/):**
+    - Path followed by a slash (/).
+
+  - **Double Slash (//):**
+    - Double slash before and after the path.
+
+  - **Path with Current Directory (./):**
+    - Current directory (./) before and after the path.
+
+  - **Request Header (-H X-Original-URL):**
+    - X-Original-URL header with the path.
+
+  - **Request Header (-H X-Custom-IP-Authorization):**
+    - X-Custom-IP-Authorization header with the IP address 127.0.0.1.
+
+  - **Request Header (-H X-Forwarded-For):**
+    - X-Forwarded-For header with the IP address http://127.0.0.1 and 127.0.0.1:80.
+
+  - **Request Header (-H X-rewrite-url):**
+    - X-rewrite-url header with the path.
+
+  - **URL Encoding (%20 and %09):**
+    - URL encoding with space (%20) and tab (%09).
+
+  - **Query Parameter (?):**
+    - Query parameter with a question mark (?).
+
+  - **Path with HTML Extension (.html):**
+    - Path with .html extension.
+
+  - **Path with Query String (/?anything):**
+    - Path followed by a query string.
+
+  - **Fragment Identifier (#):**
+    - Fragment identifier with a hash (#).
+
+  - **POST Request Header (-H Content-Length:0 -X POST):**
+    - Content-Length header set to 0 and a POST request.
+
+  - **Wildcard (*):**
+    - Wildcard after the path.
+
+  - **Path with PHP Extension (.php):**
+    - Path with .php extension.
+
+  - **Path with JSON Extension (.json):**
+    - Path with .json extension.
+
+  - **HTTP Method (-X TRACE):**
+    - TRACE HTTP method.
+
+  - **Request Header (-H X-Host):**
+    - X-Host header with the IP address 127.0.0.1.
+
+  - **Path Traversal (..;/):**
+    - Path traversal.
+
+  - **Whitespace at the Beginning (" " + self.path):**
+    - Whitespace added at the beginning of the path.
+
+  - **Path with Semicolon (;):**
+    - Semicolon added before and after the path.
+
+  This list covers a variety of common techniques used in web security testing. However, the effectiveness of these payloads depends on the specific vulnerabilities or misconfigurations present in the target system.
+
+</details>
+
+
 ---
 
 <h4 align="center">
