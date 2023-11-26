@@ -48,7 +48,7 @@ WebSecProbe is designed to perform a series of HTTP requests to a target URL wit
 <br>
 
 <details>
-  <summary> Click To Expand: Payload Breakdown </summary>
+  <summary>Click to expand: Payload Breakdown</summary>
 
   Here's a brief breakdown of the payloads:
 
@@ -121,9 +121,40 @@ WebSecProbe is designed to perform a series of HTTP requests to a target URL wit
   - **Path with Semicolon (;):**
     - Semicolon added before and after the path.
 
+  - **Path with Extra Slashes:**
+    - Test for bypassing by adding extra slashes (e.g., //path).
+
+  - **Path with URL-encoded Slash:**
+    - Use URL-encoded slash to bypass (e.g., %2Fpath).
+
+  - **Path with Double URL-encoded Slash:**
+    - Use double URL-encoded slash (e.g., %252Fpath).
+
+  - **Path with Path Parameter:**
+    - Add a path parameter (e.g., /path;parameter).
+
+  - **Path with Query Parameter in Path:**
+    - Add a query parameter within the path (e.g., /path?parameter).
+
+  - **Path with Additional Dots:**
+    - Add additional dots in the path (e.g., /path/../path).
+
+  - **Path with Unicode Encoding:**
+    - Use Unicode encoding to represent characters (e.g., %u002Fpath).
+
+  - **Path with Double URL-encoded Dot:**
+    - Use double URL-encoded dot (e.g., %252E).
+
+  - **Path with URL-encoded Null Byte:**
+    - Use URL-encoded null byte (e.g., %00).
+
+  - **Path with Hex Encoding:**
+    - Use hex encoding for characters in the path (e.g., /path%2Ehtml).
+
   This list covers a variety of common techniques used in web security testing. However, the effectiveness of these payloads depends on the specific vulnerabilities or misconfigurations present in the target system.
 
 </details>
+
 
 
 ---
