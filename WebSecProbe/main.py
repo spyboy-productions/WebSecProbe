@@ -64,7 +64,17 @@ class WebSecProbe:
             "-X TRACE",
             "-H X-Host: 127.0.0.1",
             self.path + "..;/",
-            " " + self.path + ";/"
+            " " + self.path + ";/",
+            "/path", #new payloads from here
+            "%2Fpath",
+            "%252Fpath",
+            "/path;parameter",
+            "/path?parameter",
+            "/path/../path",
+            "%u002Fpath",
+            "%252E",
+            "%00",
+            "/path%2Ehtml"
         ]
 
         for payload in payloads:
