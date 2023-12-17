@@ -220,3 +220,5 @@ Contributions and feature requests are welcome! If you encounter any issues or h
 ---
 
 <img width="100%" align="centre" src="https://cdn.discordapp.com/attachments/1141162711464550430/1151709638262263858/Screenshot_2023-09-14_at_8.11.44_AM.png" />
+
+<h4 align="center"> If you find this GitHub repo useful, please consider giving it a star! ⭐️ </h4> 
