@@ -19,7 +19,7 @@
 
 <br>
 
-<img width="100%" align="centre" src="https://cdn.discordapp.com/attachments/1141162711464550430/1152291533563891793/websecp.png" />
+<img width="100%" align="centre" src="https://github.com/spyboy-productions/WebSecProbe/blob/main/image/websecp%20(1).png" />
 
 
 <h4 align="center">  Web Security Assessment Tool, Bypass 403</h4>
@@ -219,6 +219,6 @@ Contributions and feature requests are welcome! If you encounter any issues or h
 ### ⭔ Snapshots:
 ---
 
-<img width="100%" align="centre" src="https://cdn.discordapp.com/attachments/1141162711464550430/1151709638262263858/Screenshot_2023-09-14_at_8.11.44_AM.png" />
+<img width="100%" align="centre" src="https://github.com/spyboy-productions/WebSecProbe/blob/main/image/nnfbdgsf.png" />
 
 <h4 align="center"> If you find this GitHub repo useful, please consider giving it a star! ⭐️ </h4> 
