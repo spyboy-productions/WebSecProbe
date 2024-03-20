@@ -7,8 +7,8 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.11'
-DESCRIPTION = 'Web Security Assessment Tool'
+VERSION = '0.0.12'
+DESCRIPTION = 'Bypass 403'
 
 # Setting up
 setup(
