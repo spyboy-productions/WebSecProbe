@@ -26,6 +26,10 @@
 
 A cutting-edge utility designed exclusively for web security aficionados, penetration testers, and system administrators. WebSecProbe is your advanced toolkit for conducting intricate web security assessments with precision and depth. This robust tool streamlines the intricate process of scrutinizing web servers and applications, allowing you to delve into the technical nuances of web security and fortify your digital assets effectively.
 
+### Run Online Free On Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com//github/spyboy-productions/WebSecProbe/blob/main/WebSecProbe.ipynb)
+
 <h4 align="center"> This tool is a Proof of Concept and is for Educational Purposes Only. </h4> 
 
 ---
