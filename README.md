@@ -45,7 +45,7 @@ WebSecProbe is designed to perform a series of HTTP requests to a target URL wit
 
 > Does This Tool Bypass 403 ?
 
-> It doesn't directly attempt to bypass a 403 Forbidden status code. The code's purpose is more about testing the behavior of the server when different requests are made, including requests with various payloads, headers, and URL variations. While some of the payloads and headers in the code might be used in certain scenarios to test for potential security misconfigurations or weaknesses, it doesn't guarantee that it will bypass a 403 Forbidden status code.
+> The code's purpose is more about testing the behaviour of the server when different requests are made, including requests with various payloads, headers, and URL variations. While some of the payloads and headers in the code might be used in certain scenarios to test for potential security misconfigurations or weaknesses, it doesn't guarantee that it will bypass a 403 Forbidden status code.
 
 > In summary, this code is a tool for exploring and analyzing a web server's responses to different requests, but whether or not it can bypass a 403 Forbidden status code depends on the specific configuration and security measures implemented by the target server.
 
