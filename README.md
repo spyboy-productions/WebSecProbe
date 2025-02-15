@@ -14,13 +14,15 @@
     <a href="https://spyboy.in/Discord">
       <img src="https://img.shields.io/badge/-Discord-black?logo=discord&style=for-the-badge">
     </a>
-  
 </p>
 
 <br>
 
 <img width="100%" align="centre" src="https://github.com/spyboy-productions/WebSecProbe/blob/main/image/websecp%20(1).png" />
-
+<p align="center">
+    <a href="https://pepy.tech/projects/websecprobe"><img src="https://static.pepy.tech/badge/websecprobe" alt="PyPI Downloads">
+    </a>
+</p>
 
 <h4 align="center">  Web Security Assessment Tool, Bypass 403</h4>
 
