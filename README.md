@@ -24,9 +24,15 @@
     </a>
 </p>
 
-<h4 align="center">  Web Security Assessment Tool, Bypass 403</h4>
+WebSecProbe is a security testing utility designed for web security researchers, penetration testers, and system administrators to **analyze HTTP 403 (Forbidden) responses and access control behavior** in web applications.
 
-A cutting-edge utility designed exclusively for web security aficionados, penetration testers, and system administrators. WebSecProbe is your advanced toolkit for conducting intricate web security assessments with precision and depth. This robust tool streamlines the intricate process of scrutinizing web servers and applications, allowing you to delve into the technical nuances of web security and fortify your digital assets effectively.
+The tool assists in identifying **misconfigurations, inconsistent authorization checks, and unintended access paths** by systematically testing request variations, headers, and endpoints. These techniques help reveal weaknesses that could otherwise remain unnoticed during manual testing.
+
+WebSecProbe is intended for **authorized security assessments and defensive research**, enabling teams to validate access control implementations and strengthen the overall security posture of their web applications.
+
+> [!IMPORTANT]
+> This tool must be used only on applications you own or have explicit permission to test.
+
 
 ### Run Online Free On Google Colab
 
